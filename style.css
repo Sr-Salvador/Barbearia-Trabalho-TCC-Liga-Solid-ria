@@ -148,3 +148,22 @@ footer{
     text-align: center;
     color: white;
 }
+
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa, .mapa-conteudo, .beneficios, .conteudo-beneficios, .video{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios, .imagembeneficios{
+        width: 100%;
+    }
+    
+}
